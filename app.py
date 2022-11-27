@@ -2,7 +2,7 @@ import streamlit as st
 
 st.write("""
 # Subtracting two numbers
-This app takes two numbres as input, subtracts second number from first number and outputs the result
+This app takes two numbers as input, subtracts the second number from the first number and outputs the result
 """)
 
 #Get Input
@@ -24,7 +24,7 @@ st.write(data)
 
 # Subtraction
 
-result = data['Second_Number'] - data['First_Number']
+result = data['First_Number'] - data['Second_Number']
 
 #Output
 
